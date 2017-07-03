@@ -88,7 +88,7 @@ public class Cadastro extends javax.swing.JFrame {
 
         jLabel4.setText("Mora em Itaperuna");
 
-        CbLocal.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Sim", "Não" }));
+        CbLocal.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Sim", "Nao" }));
         CbLocal.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 CbLocalActionPerformed(evt);
@@ -97,9 +97,9 @@ public class Cadastro extends javax.swing.JFrame {
 
         jLabel5.setText("Trabalha?");
 
-        CbTrabalha.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Sim", "Não" }));
+        CbTrabalha.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Sim", "Nao" }));
 
-        CbCasado.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Sim", "Não" }));
+        CbCasado.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Sim", "Nao" }));
         CbCasado.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 CbCasadoActionPerformed(evt);
@@ -137,7 +137,7 @@ public class Cadastro extends javax.swing.JFrame {
 
         jLabel10.setText("Cota");
 
-        CbCota.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Sim", "Não" }));
+        CbCota.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Sim", "Nao" }));
         CbCota.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 CbCotaActionPerformed(evt);

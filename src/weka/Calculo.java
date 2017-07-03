@@ -84,15 +84,15 @@ public class Calculo {
         double probabilidade[] = nb.distributionForInstance(novo);
         System.out.println("Motivação");
         System.out.println(String.format("1 : %1$.2f",(probabilidade[0]*100)));
-        System.out.println(String.format("1 : %1$.2f",(probabilidade[1]*100)));
-        System.out.println(String.format("1 : %1$.2f",(probabilidade[2]*100)));
-        System.out.println(String.format("1 : %1$.2f",(probabilidade[3]*100)));
-        System.out.println(String.format("1 : %1$.2f",(probabilidade[4]*100)));
-        System.out.println(String.format("1 : %1$.2f",(probabilidade[5]*100)));
-        System.out.println(String.format("1 : %1$.2f",(probabilidade[6]*100)));
-        System.out.println(String.format("1 : %1$.2f",(probabilidade[7]*100)));
-        System.out.println(String.format("1 : %1$.2f",(probabilidade[8]*100)));
-        System.out.println(String.format("1 : %1$.2f",(probabilidade[9]*100)));        
+        System.out.println(String.format("2 : %1$.2f",(probabilidade[1]*100)));
+        System.out.println(String.format("3 : %1$.2f",(probabilidade[2]*100)));
+        System.out.println(String.format("4 : %1$.2f",(probabilidade[3]*100)));
+        System.out.println(String.format("5 : %1$.2f",(probabilidade[4]*100)));
+        System.out.println(String.format("6 : %1$.2f",(probabilidade[5]*100)));
+        System.out.println(String.format("7 : %1$.2f",(probabilidade[6]*100)));
+        System.out.println(String.format("8 : %1$.2f",(probabilidade[7]*100)));
+        System.out.println(String.format("9 : %1$.2f",(probabilidade[8]*100)));
+        System.out.println(String.format("10 : %1$.2f",(probabilidade[9]*100)));        
         
     }
     
